@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon May  4 21:20:20 2020
+
+@author: Akash rana
+"""
+
+n = int(input())
+for i in range(n):
+    print(i*i)
