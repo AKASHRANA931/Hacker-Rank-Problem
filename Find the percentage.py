@@ -16,3 +16,20 @@ if __name__ == '__main__':
     #for average percentage
     averagescore = (scoresum)/3
     print("%.2f" % averagescore)
+    
+   #2nd method
+
+
+n = int(input())
+file = {}
+for i in range(n):
+    name = str(input())
+    file[name] = {int(input()) for i in range(n)}
+print(file)
+name1 = str(input())
+a = file[name1]
+sum = 0
+for i in a:
+    sum = sum + i
+ave = sum/2
+print("%.2f"% ave)
